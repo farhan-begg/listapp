@@ -2,9 +2,10 @@ from django.shortcuts import render, redirect
 from .models import List
 from .forms import ListForm
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 
 
-
+@login_required
 def home(request):
     if request.method == 'POST':
         form = ListForm(request.POST or None)
