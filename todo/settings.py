@@ -25,7 +25,7 @@ SECRET_KEY = 'g%e#4!%mka!$$jg9&ilq9*0ymegqd7l%2tu6u7^gnfqrozvvzb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'todolist-byfb.herokuapp.com', '127.0.0.1' ]
 
 
 # Application definition
