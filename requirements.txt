@@ -5,7 +5,7 @@ chardet==3.0.4
 city==0.1
 Click==7.0
 defusedxml==0.6.0
-Django==3.0
+Django==3.0.7
 django-allauth==0.40.0
 django-cart==1.0.4
 django-debug-toolbar==2.1
